@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>#(title)</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta property="og:title" content="#(title)">
+		<meta property="og:url" content="https://lubnin2024.ru">
+		<meta property="og:image" content="https://lubnin2024.ru/images/head.gif">
+
+		<link rel="stylesheet" href="/stylesheets/style.css?2">
+	
+	</head>
+
+	<body>
+		#import("body")
+	</body>
+</html>
+

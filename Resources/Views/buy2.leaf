@@ -1,0 +1,7 @@
+#extend("layout"):
+	#export("body"):
+		<div style="width: 90%; height: 90%">
+			<script src="https://eticket.systems/clientweb/js/60135/" type="text/javascript"></script>
+		</div>
+    #endexport
+#endextend

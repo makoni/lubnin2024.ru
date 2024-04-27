@@ -1,0 +1,7 @@
+#extend("layout"):
+	#export("body"):
+		<div class="message" style="width: 100%; top: 0; background: #white; font-size: 16pt; color: black; text-align: center; padding: 80px 16px;">
+			Заказ успешно оплачен и отправлен на почту. До встречи на концерте!
+		</div>
+    #endexport
+#endextend

@@ -1,0 +1,10 @@
+#extend("layout"):
+    #export("body"):
+		#extend("header")
+		#extend("pressrelease")
+		#extend("videos")
+		#extend("social")
+		#extend("footer")
+    #endexport
+#endextend
+

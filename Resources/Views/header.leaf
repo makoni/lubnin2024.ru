@@ -1,0 +1,11 @@
+<header>
+	<img id="poster" style="display: block;" src="/images/head.gif">
+
+	<!-- <div class="buy-ticket-button-long">
+		<div style="padding-top: 45px;">
+			<a data-fancybox data-type="iframe" href="/buy">Купить билет</a>
+		</div>
+	</div> -->
+
+	<div class="clear"></div>
+</header>

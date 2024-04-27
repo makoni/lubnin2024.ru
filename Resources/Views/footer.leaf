@@ -1,0 +1,53 @@
+<footer>
+	<p>&nbsp;</p>
+	<script src="https://yastatic.net/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+
+	<script type="text/javascript">
+		$(document ).ready(function() {
+			"use strict"
+		    $.fancybox.defaults.iframe.scrolling = "yes";
+			$("[data-fancybox]").fancybox({
+				iframe : {
+					css : {
+						height : '90%'
+					}
+				}
+			});
+
+			const element = document.querySelector('.close-attention');
+			const message = document.querySelector('#message');
+			if (element !== null && message !== null) {
+				element.addEventListener("click", function(e) {
+					message.style.display = 'none';
+				}, false);
+			}
+
+			/*
+			const videoElement = document.getElementById("video");
+			const poster = document.getElementById("poster");
+
+			if (videoElement === null || poster === null) {
+				return;
+			}
+
+			const promise = videoElement.play();
+
+			if (promise !== undefined) {
+				promise
+				.catch(error => {
+					// Auto-play was prevented
+					if (error.name === "NotAllowedError") {
+						videoElement.style.display = 'none';
+						poster.style.display = "block";
+					}
+				})
+				.then(() => {
+					// if there is no error, then we play the video
+					videoElement.play();
+				});
+			}*/
+		});
+	</script>
+</footer>

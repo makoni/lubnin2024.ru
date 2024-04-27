@@ -1,0 +1,292 @@
+.floatLeft { float: left; }
+.floatRight { float: right; }
+.clear { clear: both; line-height: 0; height: 0; }
+.alignCenter { text-align: center; }
+
+body {
+  font: 14px Helvetica, Arial, sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+a {
+  color: #00B7FF;
+}
+
+header {
+  background-color: black;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+header img {
+  width: 100%;
+  margin: 0;
+  padding:0;
+}
+
+.attention {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.attention-text {
+	background: red;
+	padding: 18px 0;
+  color: white;
+  font-weight: bold;
+  font-size: 16pt;
+  text-align: center;
+  width: 100%;
+}
+
+.pressrelease {
+  font-size: 24px;
+  background-color: black;
+  color: white;
+  padding: 100px 15% 12px 15%;
+  margin: 0; 
+}
+
+.buy-ticket-button-long {
+  /* margin: 0px auto 0px 2%; */
+  /* margin-left: 40px; */
+  position: absolute;
+  top: 2%;
+  /* left: 4%; */
+  /* left: 3%; */
+  width: 100%;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;     /* make main axis horizontal (default setting) */
+  justify-content: center; /* center items horizontally, in this case */
+  align-items: center;     /* center items vertically, in this case */
+  /* height: 300px; */
+}
+
+.box {
+  /* width: 300px; */
+  margin: 5px;
+  text-align: center;     /* will center text in <p>, which is not a flex item */
+}
+
+.buy-ticket-button-long-attention a {
+  font-size: 14px;
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  background: white;
+  padding: 6px 20px;
+  border: 5px solid white;
+  border-radius: 28px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.buy-ticket-button-long-attention2 a {
+  font-size: 15px;
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  background: white;
+  padding: 6px 10px;
+  border-radius: 18px;
+  font-weight: bold;
+}
+
+.buy-ticket-button-long a {
+  font-size: 18px;
+  color: #F9F4E4;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  background: #D35C3C;
+  padding: 14px 32px;
+  border-radius: 22px;
+  font-weight: bold;
+  margin-right: 0;
+}
+
+.buy-ticket-button-simple {
+  margin: 0px auto 60px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.buy-ticket-button-simple a {
+ font-size: 14px;
+ color: black;
+ text-decoration: none;
+  text-align: center;
+  background: white;
+ padding: 12px 21px;
+ border: 4px solid white;
+ border-radius: 28px;
+  font-weight: bold;
+}
+
+/* .buy-ticket-button-long a:hover {
+  background-color: #eee;
+  color: black;
+} */
+
+.buy-ticket-button-simple a:hover {
+/*  background: white;*/
+/*  color: black;*/
+/*  border: 4px solid black;*/
+/*  -webkit-transition: background 0.2s ease-out 0s;*/
+/*  -moz-transition: background 0.2s ease-out 0s;*/
+/*  -o-transition: background 0.2s ease-out 0s;*/
+/*  transition: background 0.2s ease-out 0s;*/
+}
+
+
+.videos {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+.videos iframe {
+  width: 80%;
+  height: 50vh;
+  margin-bottom: 40px;
+}
+
+.video {
+  width: 46%;
+  text-align: center;
+  float: left;
+}
+
+.video:nth-child(even) {
+  margin: 30px 4% 30px 0;
+}
+
+.video:nth-child(odd) {
+  margin: 30px 0 30px 4%;
+}
+
+.fancybox-slide--iframe .fancybox-content {
+	padding: 40px !important;
+}
+
+.socialLink {
+  height: 40px;
+  margin: 4px;
+}
+
+.map {
+  margin-top: 50px;
+}
+
+#messageMobile {
+  display: none;
+}
+
+@media (max-width : 1366px) and (max-height: 1024px) {
+  /* .buy-ticket-button-long {
+    bottom: 10vh;
+    text-align: right;
+  } */
+
+  /* .buy-ticket-button-long a {
+    margin-left: 60%;
+  } */
+}
+
+@media (max-width : 1366px) and (max-height: 768px) {
+  
+}
+
+@media (max-width : 640px) {
+  #messageMobile {
+    display: block;
+  }
+  #message {
+    display: none;
+  }
+
+	.attention-text {
+		display: none;
+	}
+  
+	.pressrelease {
+		/* width: 90%; */
+		margin: 0 auto;
+    font-size: 16px;
+    padding: 16px;
+	}
+
+  .buy-ticket-button-simple {
+  margin: 8px auto 40px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.buy-ticket-button-simple a {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background: black;
+  padding: 8px 14px;
+  border: 3px solid white;
+  border-radius: 28px;
+  font-weight: bold;
+}
+
+	.buy-ticket-button-long {
+		/* margin: 0px auto;
+		position: absolute;
+		text-align: center;
+		top: 6vh;
+    width: 100%; */
+    display: none;
+	}
+
+	.buy-ticket-button-long a {
+		/* margin-left: 30%;
+	  font-size: 14px;
+    padding: 6px 20px;
+	  border-radius: 28px;
+	  font-weight: bold; */
+	}
+
+	.buy-ticket-button-long a:hover {
+		-webkit-transition: none;
+		-moz-transition: none;
+		-o-transition: none;
+		transition: none;
+	  }
+  
+  /* .videos { width: 92%; } */
+  .video {
+    /*border: 1px solid #ccc;*/
+    width: 100%;
+    margin: 10px 0 !important;
+    text-align: center;
+    background-color: black;
+  }
+
+  .fancybox-iframe {
+    z-index: 9999;
+  }
+
+  .fancybox-slide--iframe .fancybox-content {
+    padding: 0 10px !important;
+    width  : 100% !important;
+    height : 100% !important;
+    margin: 0;
+    max-width: 100% !important;
+    max-height: 100% !important;
+  }
+}
