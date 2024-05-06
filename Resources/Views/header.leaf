@@ -7,5 +7,11 @@
 		</div>
 	</div> -->
 
+	<div class="buy-ticket-button-long">
+		<div style="padding-top: 45px;">
+			<a href="https://tickets.theatremuseum.ru/event/C3584922147F206FADBE8207C9C9B98E3E9A6235">Купить билет</a>
+		</div>
+	</div>
+
 	<div class="clear"></div>
 </header>

@@ -56,10 +56,10 @@ header img {
   /* margin: 0px auto 0px 2%; */
   /* margin-left: 40px; */
   position: absolute;
-  top: 2%;
+  top: 28%;
   /* left: 4%; */
-  /* left: 3%; */
-  width: 100%;
+  right: 5%;
+  /* width: 100%; */
   text-align: center;
 }
 
@@ -109,7 +109,7 @@ header img {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  background: #D35C3C;
+  background: black;
   padding: 14px 32px;
   border-radius: 22px;
   font-weight: bold;
