@@ -1,8 +1,8 @@
 <div class="pressrelease">
 	<p>
-		<div class="buy-ticket-button-simple">
+		<!-- <div class="buy-ticket-button-simple">
 			<a href="https://tickets.theatremuseum.ru/event/C3584922147F206FADBE8207C9C9B98E3E9A6235/2024-05-26/19:00">КУПИТЬ БИЛЕТ</a>
-		</div>
+		</div> -->
 	</p>
 	
 	<p>
@@ -34,14 +34,18 @@
 	</p>
 
 	<p>
-		Третий  альбом Гаврилы Лубнина, выпущенный в рамках проекта "Взлет Посадка Жизнь Загадка": <a href="https://bfan.link/vse-inache-povernetsya">Все иначе повернется</a>
+		Третий альбом Гаврилы Лубнина, выпущенный в рамках проекта "Взлет Посадка Жизнь Загадка": <a href="https://bfan.link/vse-inache-povernetsya">Все иначе повернется</a>
 	</p>
 
 	<p>
+		Четвёртый альбом Гаврилы Лубнина, выпущенный в рамках проекта "Взлет Посадка Жизнь Загадка": <a href="https://bfan.link/pyat">Пять</a>
+	</p>
+
+	<!-- <p>
 		<div class="buy-ticket-button-simple">
 			<a href="https://tickets.theatremuseum.ru/event/C3584922147F206FADBE8207C9C9B98E3E9A6235/2024-05-26/19:00">КУПИТЬ БИЛЕТ</a>
 		</div>
-	</p>
+	</p> -->
 
 	<!-- <p class="alignCenter">
 		<a href="/help" style="font-size: 12pt;" target="_blank">Правила продажи билетов</a>
