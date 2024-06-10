@@ -8,9 +8,9 @@
 			],
 			"args": [],
 			"cwd": "${workspaceFolder:lubnin2024.ru}",
-			"name": "Debug Run",
-			"program": "${workspaceFolder:lubnin2024.ru}/.build/debug/Run",
-			"preLaunchTask": "swift: Build Debug Run"
+			"name": "Debug App",
+			"program": "${workspaceFolder:lubnin2024.ru}/.build/debug/App",
+			"preLaunchTask": "swift: Build Debug App"
 		},
 		{
 			"type": "lldb",
@@ -20,9 +20,9 @@
 			],
 			"args": [],
 			"cwd": "${workspaceFolder:lubnin2024.ru}",
-			"name": "Release Run",
-			"program": "${workspaceFolder:lubnin2024.ru}/.build/release/Run",
-			"preLaunchTask": "swift: Build Release Run"
+			"name": "Release App",
+			"program": "${workspaceFolder:lubnin2024.ru}/.build/release/App",
+			"preLaunchTask": "swift: Build Release App"
 		}
 	]
 }
